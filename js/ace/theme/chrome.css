@@ -1,16 +1,16 @@
 .ace-chrome .ace_gutter {
-background: #0F1419;
-color: rgb(123,123,116)
+background: #1a0005;
+color: steelblue
 }
 
 .ace-chrome .ace_print-margin {
 width: 1px;
-background: #e8e8e8
+background: #1a1a1a
 }
 
 .ace-chrome {
-background-color: #0F1419;
-color: #E6E1CF
+background-color: black;
+color: #DEDEDE
 }
 
 .ace-chrome .ace_cursor {
@@ -81,17 +81,17 @@ color: #F07178
 }
 
 .ace-chrome .ace_support.ace_constant {
-font-style: italic;
+font-weight: bold;
 color: #F29668
 }
 
 .ace-chrome .ace_support.ace_class {
-font-style: italic;
+font-weight: bold;
 color: #39BAE6
 }
 
 .ace-chrome .ace_support.ace_type {
-font-style: italic;
+font-weight: bold;
 color: #39BAE6
 }
 
@@ -121,7 +121,7 @@ color: #95E6CB
 }
 
 .ace-chrome .ace_comment {
-font-style: italic;
+font-weight: bold;
 color: #5C6773
 }
 
@@ -130,7 +130,7 @@ color: #E6E1CF
 }
 
 .ace-chrome .ace_variable.ace_language {
-font-style: italic;
+font-weight: bold;
 color: #39BAE6
 }
 
@@ -148,4 +148,8 @@ color: #FFB454
 
 .ace-chrome .ace_entity.ace_name.ace_tag {
 color: #39BAE6
-}'
+}
+
+.ace-chrome-theme .ace_indent-guide {
+background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAACCAYAAACZgbYnAAAAEklEQVQImWNgYGBgYLBWV/8PAAK4AYnhiq+xAAAAAElFTkSuQmC)right repeat-y;
+}
